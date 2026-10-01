@@ -1,0 +1,18 @@
+.category {
+  &__item {
+    min-width: 16rem;
+
+    &-img {
+      min-width: 10rem;
+      max-width: 11rem;
+      height: auto;
+      text-align: center;
+    }
+
+    img {
+      width: 10rem;
+      height: 10rem;
+      object-fit: contain;
+    }
+  }
+}

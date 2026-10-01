@@ -1,0 +1,8 @@
+.brands {
+  &__img {
+    max-width: 5rem;
+    @include Responsive(phone) {
+      display: none;
+    }
+  }
+}

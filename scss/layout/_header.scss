@@ -1,0 +1,16 @@
+.header {
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.3);
+
+  &__container {
+    &-line {
+      width: $fs-7;
+      height: $fs-1;
+    }
+
+    &-login {
+      @include Responsive(phone) {
+        display: none;
+      }
+    }
+  }
+}
